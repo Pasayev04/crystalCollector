@@ -31,7 +31,7 @@ $(document).ready(function () {
         randNumber = x;
         $("#randomNumber").html(randNumber);
 
-        console.log("random number: " + randNumber);
+        // console.log("random number: " + randNumber);
 
     }
     function pickRandomCrystals(arr) {
@@ -43,7 +43,7 @@ $(document).ready(function () {
             crystalNumbers.push(a);
         }
 
-        console.log("crystal numbers: " + crystalNumbers);
+        // console.log("crystal numbers: " + crystalNumbers);
 
     }
     function crystalValues(arr) {
